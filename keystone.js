@@ -96,6 +96,8 @@ keystone.set('nav', {
 	'users': 'users'
 });
 
+keystone.set('cloudinary config', 'cloudinary://api_key:api_secret@cloud_name' );
+
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();

@@ -1,5 +1,5 @@
 FROM node:0.10-onbuild
-MAINTAINER Eugeny Vlasenko <mahnunchik@gmail.com>
+MAINTAINER Micah Topping <mt@eristocrat.net>
 
 ADD run.sh run.sh
 RUN chmod +x run.sh
